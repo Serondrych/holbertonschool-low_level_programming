@@ -9,12 +9,12 @@
 int main(void)
 {
 	char az;
+	char shift;
 
 	for (az = 'a'; az <= 'z'; az++)
 	{
 		putchar(az);
 	}
-	char shift;
 
 	for (shift = 'A'; shift <= 'Z'; shift++)
 	{
