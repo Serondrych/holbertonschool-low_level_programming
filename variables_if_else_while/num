@@ -14,10 +14,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	int num, digit;
-
-	scanf("%d", &num);
-	digit = num % 10;
-	printf("Last digit: %d\n", digit);
-	return (0);
+	if (n > 0)
+                printf("Last digit of %d is %d and is less than 6 and not 0\n", n);
+        else if (n == 0)
+                printf("%d is zero\n", n);
+        else
+                printf("%d is negative\n", n);
+        return (0);
 }
