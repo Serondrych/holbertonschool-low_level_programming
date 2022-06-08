@@ -9,7 +9,6 @@
 
 int main(void)
 {
-	write(0, "_", 1);
-	write(0, "putchar\n", 8);
+	_putchar('A');
 	return (0);
 }
