@@ -9,14 +9,14 @@
 int main(void)
 {
 	int num = 48;
-	int let = 65;
+	int let = 97;
 
 	while (num < 58)
 	{
 		putchar(num);
 		num++;
 	}
-	while (let < 71)
+	while (let < 103)
 	{
 		putchar(let);
 		let++;
