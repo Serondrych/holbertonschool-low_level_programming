@@ -8,12 +8,16 @@
 */
 int main(void)
 {
-	char az;
+	int i = 97;
 
-	for (az = 'a'; az <= 'z'; az++)
+	while (i < 123)
 	{
-		putchar(az);
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+		i++;
 	}
-		putchar('\n');
+	putchar(10);
 	return (0);
 }
