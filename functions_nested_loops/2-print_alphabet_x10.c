@@ -23,7 +23,7 @@ void print_alphabet_x10(void)
 {
 	int num = 48;
 
-	for (; num < 57; num++)
+	for (; num < 58; num++)
 	{
 	print_alphabet();
 	}
