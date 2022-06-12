@@ -3,7 +3,7 @@
 /**
 * jack_bauer - prints every minute of the day of Jack Bauer, from 00:00 to 23:5
 *
-* @r: number
+* Dscription: Jack Bauer 24 clock
 *
 * Return: Always 0.
 */
@@ -43,5 +43,5 @@ void jack_bauer(void)
 	}
 	min_10 = '0';
 	hr_01++;
-	} 
+	}
 }
