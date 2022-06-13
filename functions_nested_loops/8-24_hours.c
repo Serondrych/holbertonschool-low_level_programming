@@ -10,38 +10,40 @@
 
 void jack_bauer(void)
 {
-	int hr_10, hr_01, min_10, min_01, hr_24;
+	int hr10, hr01, min10, min01, hr24;
 
-	hr_24 = 58;
-	hr_10 = '0';
-	while (hr_10 < '3')
+	hr24 = 58;
+	hr10 = '0';
+	while (hr10 < '3')
 	{
-		if (hr_10 == '2')
+		if (hr10 == '2')
 		{
-			hr_24 = '4';
+			hr24 = '4';
 		}
-	hr_01 = '0';
-	while (hr_01 < hr_24)
-	{
-		min_10 = '0';
-		while (min_10 < '6')
+		hr01 = '0';
+		while (hr01 < hr24)
 		{
-			min_01 = '0';
-			while (min_01 < 58)
+			min10 = '0';
+			while (min10 < '6')
 			{
-				_putchar(hr_10);
-				_putchar(hr_01);
-				_putchar(':');
-				_putchar(min_10);
-				_putchar(min_01);
-				_putchar('\n');
-				min_01++;
+				min01 = '0';
+				while (min01 < 58)
+				{
+					_putchar(hr10);
+					_putchar(hr01);
+					_putchar(':');
+					_putchar(min10);
+					_putchar(min01);
+					_putchar('\n');
+					min01++;
+				}
+				min01 = '0';
+				min10++;
 			}
+			min10 = '0';
+			hr01++;
 		}
-		min_01 = '0';
-		min_10++;
-	}
-	min_10 = '0';
-	hr_01++;
+		hr01 = '0';
+		hr10++;
 	}
 }
