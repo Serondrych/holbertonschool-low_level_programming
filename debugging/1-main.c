@@ -11,7 +11,7 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 /**
-*	Description: Loop starts here
+*	Short description: Loop starts here
 *
 *	i = 0;
 *	while (i < 10)
