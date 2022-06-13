@@ -11,7 +11,7 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 /**
-*	Short description: Loop starts here
+*	struct loop
 *
 *	i = 0;
 *	while (i < 10)
