@@ -13,6 +13,7 @@ int main(void)
 
 	i = 0;
 /* Description: Loop here */
+
 /**	while (i < 10)
 *	{
 *	putchar(i);
