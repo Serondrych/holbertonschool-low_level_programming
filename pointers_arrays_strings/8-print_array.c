@@ -16,7 +16,9 @@ void print_array(int *a, int n)
 	times = 1;
 
 	if (n < 0)
+	{
 		n = 0;
+	}
 	if (n > 0)
 	{
 		for (; a[i] != '\0' && times < n;)
