@@ -1,0 +1,10 @@
+CC=gcc
+CFLAGS=-I.
+DEPS = m.h
+OBJ = main.o school.o
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+school: $(OBJ)
+	$CC -o $@ $^ $(CFLAGS)
