@@ -1,6 +1,6 @@
 CC = gcc
 CHFLAGS = -Wall -Werror -Wextra -pedantic
-sRC = main.c school.c
+SRC = main.c school.c
 OBJ = $(SRC:%.c=%.o)
 NAME = school
 RM = rm
