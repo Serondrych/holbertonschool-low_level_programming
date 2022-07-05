@@ -61,7 +61,7 @@ void print_all(const char * const format, ...)
 	int i, j;
 	char *sep = "";
 
-	op_t ops[] = { 
+	op_t ops[] = {
 		{'c', print_char},
 		{'i', print_int},
 		{'f', print_float},
