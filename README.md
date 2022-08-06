@@ -1,4 +1,1 @@
-C - Hello, World
-================
-## 0. Preprocessor 
-
+C - Doubly linked lists
